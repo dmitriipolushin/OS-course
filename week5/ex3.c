@@ -50,7 +50,7 @@ void *consumer(void *vararg){
 int main()
 {
     /*
-    do not know how to pint a number just one time in a minute
+    do not know how to pint a number just one time in ak minute
     */
     pthread_t t1, t2;
     producerSleep = 0;
