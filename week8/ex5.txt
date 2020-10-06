@@ -1,0 +1,6 @@
+physical address refers to a physical memory that physicaly exists
+
+virtual address refers to a virtual memory. 
+The destination of this adress is no present in physical memory.
+from virtual address we can get the physical address 
+if page that consist this adress is loaded to the physical memory at the request moment 

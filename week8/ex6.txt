@@ -1,0 +1,4 @@
+if the address is a 16-bit and page is 8-KB
+we need 13 bits to specify addresses in page(8-KB = 8192-B so it is 2^13)
+and we have 16-3 bits for entry number.
+Because of this we have 2^3 = 8 entries
