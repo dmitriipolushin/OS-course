@@ -1,0 +1,13 @@
+if we take n number of pages to increase hit the input
+sequence should be repeated with n numbers in one cycle of repetition
+to increase miss there should be not n numbers in one cycle of repetition
+For examble:
+n = 5
+1 2 3 4 5 1 2 3 4 5 1 2 3 4 5
+hit: 10 miss: 5
+1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5
+hit: 15 miss: 5
+1 2 3 4 5 6 1 2 3 4 5 6 1 2 3 4 5 6
+hit: 12 miss: 24
+1 2 3 4 5 6 1 2 3 4 5 6 1 2 3 4 5 6 1 2 3 4 5 6
+hit: 13 miss: 29
