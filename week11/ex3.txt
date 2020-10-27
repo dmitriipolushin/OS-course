@@ -1,0 +1,12 @@
+output1:
+Hello
+Hello
+output2:
+Hello
+
+
+In UNIX system the line buffering is using by default.
+In the line buffering characters are transmitted to the system as a block when a new-line character is encountered.
+In first program after fork we have two buffers with "Hello" in each buffer
+In secnd program we have new-line character in hello string. We stop writing to the buffer after "Hello\n" 
+and then after fork have another new-line character
