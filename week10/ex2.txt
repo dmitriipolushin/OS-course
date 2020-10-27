@@ -1,0 +1,5 @@
+2097328 _ex2.txt
+../week10/week01/file.txt
+../week10/_ex2.txt
+Command: find .. -inum 2097328 -exec rm {} \;
+Output:
