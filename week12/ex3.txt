@@ -1,0 +1,21 @@
+I have 1279 charactes in copying file ex3_1.txt
+
+If DBUF_SIZE = 1 then we have time:
+real	0m0.008s
+user	0m0.000s
+sys	0m0.008s
+If DBUF_SIZE = 100 we have time:
+real	0m0.003s
+user	0m0.003s
+sys	0m0.000s
+So, the bigger size of buffer increase the speed of copying
+
+If we add O_SYNC flag and DBUF_SIZE = 100 then we have time:
+real	0m0.027s
+user	0m0.000s
+sys	0m0.003s
+If we add O_SYNC flag and DBUF_SIZE = 500 then we have time:
+real	0m0.009s
+user	0m0.003s
+sys	0m0.000s
+So, the using of O_SYNC flag decrease the speed of copying
